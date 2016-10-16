@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/still-context.iml" filepath="$PROJECT_DIR$/still-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/still-core/still-core.iml" filepath="$PROJECT_DIR$/still-core/still-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/still-web/still-web.iml" filepath="$PROJECT_DIR$/still-web/still-web.iml" />
+    </modules>
+  </component>
+</project>
