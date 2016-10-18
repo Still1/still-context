@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="still-web:war">
-    <output-path>$PROJECT_DIR$/still-web/target</output-path>
-    <root id="archive" name="still-web.war">
-      <element id="artifact" artifact-name="still-web:war exploded" />
-    </root>
-  </artifact>
-</component>
