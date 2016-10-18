@@ -1,9 +1,8 @@
-package com.still.stillframework.testdependencies;
+package com.still.stillframework.context.testdependencies;
 
 import org.junit.Assert;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
