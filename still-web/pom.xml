@@ -8,13 +8,23 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>still-web</artifactId>
     <packaging>war</packaging>
-    <name>still-web Maven Webapp</name>
+    <name>still-web</name>
     <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>still-core</artifactId>
             <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.thymeleaf</groupId>
+            <artifactId>thymeleaf</artifactId>
+            <version>3.0.2.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.thymeleaf</groupId>
+            <artifactId>thymeleaf-spring4</artifactId>
+            <version>3.0.2.RELEASE</version>
         </dependency>
     </dependencies>
     <build>

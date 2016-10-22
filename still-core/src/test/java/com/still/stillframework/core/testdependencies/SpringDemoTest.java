@@ -1,4 +1,4 @@
-package com.still.stillframework.context.testdependencies;
+package com.still.stillframework.core.testdependencies;
 
 import org.junit.Assert;
 import org.junit.Test;
