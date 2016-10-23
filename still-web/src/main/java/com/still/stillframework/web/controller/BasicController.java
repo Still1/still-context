@@ -1,7 +1,6 @@
 package com.still.stillframework.web.controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
@@ -12,8 +11,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class BasicController {
-    @RequestMapping(value = {"/index", "/"})
+    @RequestMapping(value = {"/index"})
     public String indexHandler() {
-        return "index";
+        return "basic/index";
+    }
+
+    @RequestMapping(value = {"/signIn", "/"})
+    public String signInHandler() {
+        return "basic/signIn";
     }
 }

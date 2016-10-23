@@ -40,6 +40,9 @@
     </bean>
 
     <mvc:annotation-driven />
-    <mvc:resources location="WEB-INF/common/css/bootstrap/" mapping="/css/bootstrap/**" />
-    <mvc:resources location="WEB-INF/common/js/bootstrap/" mapping="/js/bootstrap/**" />
+    <mvc:resources location="WEB-INF/common/css/" mapping="common/css/**" />
+    <mvc:resources location="WEB-INF/common/js/" mapping="common/js/**" />
+    <mvc:resources location="WEB-INF/templates/" mapping="templates/css/**" />
+    <mvc:resources location="WEB-INF/templates/" mapping="templates/js/**" />
+    <mvc:resources location="WEB-INF/templates/" mapping="templates/image/**" />
 </beans>
